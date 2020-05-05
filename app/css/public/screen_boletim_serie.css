@@ -1,0 +1,64 @@
+body{
+    background: #fff;
+    font-size:10px;
+    font-family: arial,verdana;
+    background: none !important;
+    padding: 10px;
+}
+.page { page-break-after: always;margin: 2cm }
+.table-break{
+    page-break-after:always;
+}
+table {
+    font-size:11px !important;
+    font-family: arial,verdana;
+    background-color: #fff;
+    border:1px solid #666 !important;
+    width: 100%;
+    margin: 0px !important;
+}
+td,th{
+    background-color: #fff !important;
+    font-size:10px !important;
+    font-family: arial,verdana;        
+    padding: 3px !important;
+    text-align: center  !important;
+}
+td,th{
+    border:1px solid #666 !important;
+}
+.thFundoPreto {
+    background-color: #000000 !important;
+    font-size:12px !important;
+    color: #ffffff;
+    border-right:1px solid white !important;
+    text-align: center !important;
+}
+.thFundoCinza {
+    background-color: #808080 !important;
+    font-size:12px !important;
+    color: #ffffff;
+    border-right:1px solid white !important;
+    text-align: center !important;
+}
+p{
+    font-size: 13px;
+    margin-bottom: 0px !important;
+}
+#rodape{
+    margin-top: 5px !important;
+    padding: 0px !important;
+    border: 1px solid #333;
+}
+#rodape td{
+    font:15px arial,verdana !important;
+    text-align: center !important;                
+}
+#header{
+    margin-bottom: 5px !important;
+    padding: 0px !important;
+    border: 1px solid #333;
+}
+#header td{
+    border: 0px solid #333 !important;
+}

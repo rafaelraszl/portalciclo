@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Boletim do Aluno | [cliente_nome] | [categoria_title] - [sub_title] | [ano_corrente]</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+        <script src="js/jquery/jquery-1.8.3.min.js" type="text/javascript"></script>
+        <script src="js/jquery/jquery-ui-1.9.2.js" type="text/javascript"></script>
+        <script src="js/public/main.js" type="text/javascript"></script>
+        <script src="js/jquery/bootstrap/bootstrap.js" type="text/javascript"></script>
+        <link href="css/public/aluno.css" rel="stylesheet" />
+        <style>
+            body{
+                background: #fff;
+                font-size:10px;
+                font-family: arial,verdana;
+            }
+            .page { page-break-after: always;margin: 2cm }
+            table {
+                page-break-after:always;
+                font-size:11px !important;
+                font-family: arial,verdana;
+                background-color: #fff;
+                border:1px solid #666 !important;
+                width: 100%;
+            }
+            td,th{
+                background-color: #fff !important;
+                font-size:10px !important;
+                font-family: arial,verdana;        
+                padding: 3px !important;
+            }
+            td,th{
+                border:1px solid #666 !important;
+            }
+              .thFundoPreto {
+                background-color: #000000 !important;
+                font-size:12px !important;
+                color: #ffffff;
+                border-right:1px solid white !important;
+                text-align: center !important;
+            }
+            .thFundoCinza {
+                background-color: #808080 !important;
+                font-size:12px !important;
+                color: #ffffff;
+                border-right:1px solid white !important;
+                text-align: center !important;
+            }
+            p{
+                font-size: 13px;
+            }
+            
+            .tes {
+                background-color: red !important;
+            }
+        </style>
+    </head>
+    <body>
+
+
+        <p><strong>Nome do Aluno:</strong> [cliente_nome] | <strong>Matrícula:</strong> [cliente_matricula] <br/>
+            <strong>Série:</strong> [sub_title] | <strong>Turno:</strong> [categoria_title]</p>
+
+        <table cellpadding="0" cellspacing="0" border="0" id="tbl-func" class="table">
+            <thead>
+                <tr>
+                    <!-- <th>&nbsp;</th>';
+                    <th class="tes" colspan="2">1º Bimestre</th>
+                    <th colspan="2">2º Bimestre</th>
+                    <th colspan="2">3º Bimestre</th>
+                    <th colspan="2">4º Bimestre</th> -->
+                </tr>		
+            <th>Disciplina</th>
+            <th>PROVA I</th>
+            <th>FALTAS</th>
+            <th>PROVA II</th>
+            <th>FALTAS</th>
+            <th>PROVA III</th>
+            <th>FALTAS</th>
+            <th>PROVA IV</th>
+            <th>FALTAS</th>
+            <th>PROVA V</th>
+            <th>MEDIA</th>
+            <th>FALTAS</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!--{loop:r}-->
+        <!--{<tr>}-->
+        <!--{<td>r.disciplina_nome</td>}-->
+        <!--{<td>r.bolemat_n1 &nbsp;</td>}-->
+        <!--{<td>r.bolemat_r1 &nbsp;</td>}-->
+        <!--{<td>r.bolemat_n2 &nbsp;</td>}-->
+        <!--{<td>r.bolemat_r2 &nbsp;</td>}-->
+        <!--{<td>r.bolemat_n3 &nbsp;</td>}-->
+        <!--{<td>r.bolemat_r3 &nbsp;</td>}-->
+        <!--{<td>r.bolemat_n4 &nbsp;</td>}-->
+        <!--{<td>r.bolemat_r4 &nbsp;</td>}-->
+        <!--{<td>r.bolemat_m1 &nbsp;</td>}-->
+        <!--{<td>r.bolemat_m2 &nbsp;</td>}-->
+        <!--{<td>r.bolemat_m3 &nbsp;</td>}-->
+        <!--{</tr>}-->
+        <!--{end:r}-->
+    </tbody>
+    <tfoot></tfoot>
+</table>                        
+
+<script>
+    window.onload = function()
+    {
+        window.print();
+    }
+</script>
+</body>
+</html>

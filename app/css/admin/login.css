@@ -1,0 +1,90 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Open+Sans);
+body,html{
+    /*background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(49,167,228,1) 0%, rgba(162,228,241,1) 100%);*/
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans Condensed';
+    font-size: 11px;    
+    color:#333;
+    /*background-color: #fff;*/
+    overflow: hidden;
+}
+h3{
+    margin: 0px;
+    padding: 0px;    
+}
+p,a{
+    margin: 0px;
+    padding: 0px;    
+    font-size: 13px;
+}
+#main {
+    margin-top: 250px;
+    background-color: none;
+}
+
+.popover-title {
+    color:#5EA0DA !important;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Open Sans Condensed';
+}
+.popover-content p{
+    font-size: 11px !important;
+    font-weight: 500;
+    font-family: 'Open Sans';  
+    color:red;
+}
+#wrap{
+    width: 400px;
+    height: 99%;
+    border: 0px solid red;
+    padding: 1px;  
+    margin: 0 auto !important;
+    /*background: url(../../images/layout/stripes.gif);*/
+    background-color: #fff;
+    margin-bottom: 0px !important;
+}
+#nav-logins{
+    padding-top: 50%;
+}
+.navbar{ 
+    margin-bottom: 0px !important;
+    background-color: none !important;
+}
+.navbar-inner{
+    padding-left: 10.5%;
+}
+
+.form-login #user_login,.form-login #user_email,#cliente_matricula,#professor_login{
+    height: 25px;
+    background: url(../../images/layout/icon_user_login.png) no-repeat -1px -3px;
+    padding-left: 80px; 
+    margin-bottom: 20px;
+}
+.form-login #user_password, #cliente_senha,#professor_senha{
+    height: 25px;
+    background: url(../../images/layout/icon_user_pass.png) no-repeat -1px -3px;
+    padding-left: 80px;
+}
+.form-login #btn-login{
+    width: 80px;
+    background: url(../../images/layout/icon_user_btn.png)  -1px -3px;
+    margin-left: 56px;
+}
+.form-login #btn-login:hover{
+    opacity:.9;
+}
+
+.form-login #btn-login-repass{
+    width: 150px;
+    background: url(../../images/layout/icon_user_btn.png)  -1px -3px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+}
+.form-login #btn-login-repass:hover{
+    opacity:.9;
+}
+

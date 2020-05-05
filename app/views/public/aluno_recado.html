@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Área do Aluno | [config_site_title]</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+        <script src="js/jquery/jquery-1.8.3.min.js" type="text/javascript"></script>
+        <script src="js/jquery/jquery-ui-1.9.2.js" type="text/javascript"></script>
+        <script src="js/jquery/bootstrap/bootstrap.js" type="text/javascript"></script>
+        <script src="js/public/main.js" type="text/javascript"></script>
+        <link href="css/public/aluno.css" rel="stylesheet" />
+        <script src="js/public/aluno.js" type="text/javascript"></script>
+    </head>
+    <body>
+
+        <div class="container">
+            <div class="span12" id="top">
+                <img src="images/layout/ciclo-logo-900x600ALPHA-OK.png" style="height: 150px;
+                    width: 200px;" /> <br /> <br />
+            </div>
+
+            <div class="span12" id="main">
+                <div id="header" class="span12">
+                    <ul>
+                        <li>
+                            <a href="[baseUri]/aluno/">
+                                <img src="images/aluno/home.png" />
+                                <br>
+                                <span>Página Principal</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="[baseUri]/aluno/recados/"><img src="images/aluno/edit_text.png" />
+                                <br>
+                                <span>Meus Recados</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="[baseUri]/aluno/material/"><img src="images/aluno/folder.png" />
+                                <br>
+                                <span>Meu Material</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="[baseUri]/aluno/boletim/"><img src="images/aluno/font.png" />
+                                <br>
+                                <span>Meu Boletim</span>                   
+                            </a>
+                        </li>
+                        <li>
+                            <a href="[baseUri]/aluno/dados/"><img src="images/aluno/desktop.png" />
+                                <br>
+                                <span>Meus Dados</span>                   
+                            </a>
+                        </li>
+                        <li>
+                            <a href="[baseUri]/loginAluno/logout/"><img src="images/icons/logout.png" />
+                                <br>
+                                <span>Sair do Sistema</span>                   
+                            </a>
+                        </li>                        
+                    </ul>
+                </div>
+
+                <div class="span12">
+                    <br>
+                    <div class="span11">
+                        <p class="well well-small"><b class="icon-info-sign"></b> Meus Recados</p>
+                        <div id="divTab">
+                            <span id="call"></span>
+                            <table cellpadding="0" cellspacing="0" border="0" id="tbl-func" class="table">
+                                <thead>
+                                    <tr>
+                                        <th width="120">Data</th>
+                                        <th>Professor</th>
+                                        <th>Assunto</th>
+                                        <th width="120">&nbsp;</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <!--{loop:r}-->
+                                    <!--{<tr>}-->
+                                    <!--{<td>r.recado_data</td>}-->
+                                    <!--{<td>r.professor_nome</td>}-->
+                                    <!--{<td>r.recado_assunto</td>}-->
+                                    <!--{<td>}-->
+                                    <!--{<button class="btn read btn-small btn-info" id="r.recado_id"><b class="icon-edit icon-white"></b> ler mensagem</button>}-->
+                                    <!--{</td>}-->
+                                    <!--{</tr>}-->
+                                    <!--{end:r}-->
+                                </tbody>
+                                <tfoot></tfoot>
+                            </table>
+                            <div class="pagination">
+                                <ul>
+                                    [pagelinks]
+                                </ul>
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="span12" id="footer"></div>
+        </div>
+
+    </body>
+</html>

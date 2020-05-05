@@ -1,0 +1,25 @@
+
+
+#tbl-func {
+    margin-bottom: 80px !important;    
+    margin-top: 0px !important;    
+}
+#tbl-func img{
+    cursor: pointer;
+}
+#call{
+    padding-left:  20px;
+    margin-left: 7px;
+    display: inline-block;
+    border: 0px solid red;
+    margin-top: 50px !important;    
+}
+.bicon{
+    margin-top: 2px !important;
+}
+body{
+}
+
+#top{
+    height:190px !important; 
+}

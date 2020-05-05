@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ficha Cadastral de [cliente_nome]</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+        <link href="css/admin/print.css" rel="stylesheet"  />        
+    </head>
+    <body>
+        <div class="[showT]">
+            <table class="no-border-bottom tdficha">
+                <tr>
+                    <th>Dados do Aluno</th>
+                </tr>
+            </table>
+            <table class="no-border-top tdficha">
+                <tr>
+                    <td>Aluno</td>
+                    <td>[cliente_nome]</td>
+                </tr>
+                <tr>
+                    <td>Matrícula</td>
+                    <td>[cliente_matricula]</td>
+                </tr>
+                <tr>
+                    <td>Matriculado em</td>
+                    <td>[cliente_ano_matricula]</td>
+                </tr>
+                <tr>
+                    <td>Turno</td>
+                    <td>[categoria_title]</td>
+                </tr>
+                <tr>
+                    <td>Série</td>
+                    <td>[sub_title]</td>
+                </tr>
+                <tr>
+                    <td>Nascido em</td>
+                    <td>[cliente_datan]</td>
+                </tr>
+                <tr>
+                    <td>Sexo</td>
+                    <td>[cliente_sexo]</td>
+                </tr>
+                <tr>
+                    <td>Responsável</td>
+                    <td>[cliente_responsavel]</td>
+                </tr>
+            </table>          
+        </div>
+        <div class="[showA]">
+            <table class="no-border-top no-border-bottom tdficha">
+                <tr>
+                    <th>Dados de Contato</th>
+                </tr>
+            </table> 
+            <table class="no-border-top tdficha">
+                <tr>
+                    <td>Telefone Fixo</td>
+                    <td>[cliente_telefone]</td>
+                </tr>
+                <tr>
+                    <td>Celular ou Contato</td>
+                    <td>[cliente_celular]</td>
+                </tr>
+                <tr>
+                    <td>CEP</td>
+                    <td>[cliente_cep]</td>
+                </tr>
+                <tr>
+                    <td>Endereço</td>
+                    <td>[cliente_rua], Nº [cliente_num],[cliente_bairro],[cliente_cidade], [cliente_uf]</td>
+                </tr>
+                <tr>
+                    <td>Complemento</td>
+                    <td>[cliente_complemento]</td>
+                </tr>
+            </table>             
+        </div>
+
+        <div class="[showM]">            
+            [mensalidades]
+        </div>
+
+    </body>
+</html>
