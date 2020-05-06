@@ -468,9 +468,7 @@ class Professor extends PHPFrodo {
                         $t .= '</table><br/>';
                         $hora = date('d-m-Y H:i');
                         $t .= '
-                            <p style="float:left;margin-right:10px;"><b>Observações:</b> </p><br/>
-                         <div style="border:1px solid; height:70px;width:100%"></div>
-                         <p style="float:right;margin-right:10px;">' . $hora . ' </p>
+                            <p style="float:right;margin-right:10px;">' . $hora . ' </p>
                         ';
                         $t .= '</div>';
                         $tt .= $t;

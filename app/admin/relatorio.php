@@ -598,8 +598,8 @@ class Relatorio extends PHPFrodo {
                         $t .= '<th class="thFundoCinza" >PROVA IV</th>';
                         $t .= '<th class="thFundoCinza" >FALTAS</th>';
                         $t .= '<th class="thFundoCinza" >PROVA V</th>';
-                        $t .= '<th class="thFundoCinza" >MEDIA </th>';
-                        $t .= '<th class="thFundoCinza" >FALTAS </th>';
+                        $t .= '<th class="thFundoCinza" >MEDIA</th>';
+                        $t .= '<th class="thFundoCinza" >FALTAS</th>';
                         $t .= '</tr>';
                         $t .= '</thead>';
                         $t .= '<tbody>';
@@ -625,8 +625,6 @@ class Relatorio extends PHPFrodo {
                         $t .= '</table>';
                         $hora = date('d-m-Y H:i');
                         $t .= '
-                          <p style="float:left;margin-right:10px;"><b>Observações:</b> </p><br/>
-                         <div style="border:1px solid; height:70px;width:100%"></div>
                          <p style="float:right;margin-right:10px;">' . $hora . ' </p><br/><br/>
                         ';
                         $t .= '</div>';
@@ -711,8 +709,8 @@ class Relatorio extends PHPFrodo {
                         $t .= '<th class="thFundoCinza" >PROVA IV</th>';
                         $t .= '<th class="thFundoCinza" >FALTAS</th>';
                         $t .= '<th class="thFundoCinza" >PROVA V</th>';
-                        $t .= '<th class="thFundoCinza" >MEDIA </th>';
-                        $t .= '<th class="thFundoCinza" >FALTAS </th>';
+                        $t .= '<th class="thFundoCinza" >MEDIA</th>';
+                        $t .= '<th class="thFundoCinza" >FALTAS</th>';
                         $t .= '</tr>';
                         $t .= '</thead>';
                         $t .= '<tbody>';
@@ -738,8 +736,6 @@ class Relatorio extends PHPFrodo {
                         $t .= '</table>';
                         $hora = date('d-m-Y H:i');
                         $t .= '
-                       <p style="float:left;margin-right:10px;"><b>Observacoes:</b> </p><br/>
-                         <div style="border:1px solid; height:70px;width:100%"></div>
                          <p style="float:right;margin-right:10px;">' . $hora . ' </p><br/><br/>
                         ';
                         $t .= '</div>';
