@@ -1,0 +1,7 @@
+style="background: rgb(2,0,36);
+            background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(49,167,228,1) 0%, rgba(162,228,241,1) 100%);"
+
+
+            background-image: linear-gradient(to bottom, #051937, #00466d, #007aa1, #00b1cc, #12ebeb);
+
+            background-image: linear-gradient(to bottom, #020024, #31A7E4, #A2E4F1);
