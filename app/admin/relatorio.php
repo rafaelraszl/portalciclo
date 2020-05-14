@@ -623,6 +623,7 @@ class Relatorio extends PHPFrodo {
                         $t .= '</tbody>';
                         $t .= '<tfoot></tfoot>';
                         $t .= '</table>';
+                        date_default_timezone_set('Etc/GMT+3');
                         $hora = date('d-m-Y H:i');
                         $t .= '
                          <p style="float:right;margin-right:10px;">' . $hora . ' </p><br/><br/>
@@ -734,6 +735,7 @@ class Relatorio extends PHPFrodo {
                         $t .= '</tbody>';
                         $t .= '<tfoot></tfoot>';
                         $t .= '</table>';
+                        date_default_timezone_set('Etc/GMT+3');
                         $hora = date('d-m-Y H:i');
                         $t .= '
                          <p style="float:right;margin-right:10px;">' . $hora . ' </p><br/><br/>
